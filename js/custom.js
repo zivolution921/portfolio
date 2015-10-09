@@ -295,9 +295,17 @@ $(document).ready(function() {
 
 
 $(function () {
-    $('.demo').textillate();
+    $('.demo').textillate({
+    	in: {
+    		effect: 'rollIn'
+    	}
+    });
+    $('.txt').textillate({
+    	in: {
+    		effect: 'pulse'
+    	}
+    });
 })
-
 
 
 
